@@ -177,7 +177,7 @@ d3.csv("data.csv").then(function (data, err) {
 
 // console.log(data)
   let textsGroup = chartGroup
-    .selectAll("text")
+    .selectAll("div")
     .data(data)
     .enter()    
     .append("text")

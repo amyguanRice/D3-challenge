@@ -169,7 +169,7 @@ d3.csv("data.csv").then(function (data, err) {
     .attr("fill", "blue")
     .attr("opacity", ".5");
 
-  let textsGroup = chartGroup.selectAll("text")
+  let textsGroup = chartGroup.selectAll("div")
     .data(data)
     .enter()
     .append("text")
